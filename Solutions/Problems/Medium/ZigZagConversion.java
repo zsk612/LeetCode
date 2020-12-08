@@ -1,5 +1,5 @@
 public class ZigZagConversion {
-    public String convert(String s, int numRows) {
+    public static String convert(String s, int numRows) {
         if (numRows == 1) {
             return s;
         }
@@ -27,7 +27,7 @@ public class ZigZagConversion {
         }
         return result.toString(); 
     }
-    
+
     public static void main(String[] args) {
         String s = new String("PAYPALISHIRING");
         int numRows = 1;
