@@ -1,4 +1,4 @@
-public class findMedianOfTwoSortedArrays {
+public class FindMedianOfTwoSortedArrays {
     public static double findMedianSortedArrays(int[] A, int[] B) {
         int m = A.length;
         int n = B.length;
